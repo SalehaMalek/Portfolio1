@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Bodoni Moda', serif;
+    box-sizing: border-box;
+    resize: none;
+    
+}
+.salute{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.container{
+    /* background-color: #111; */
+    background: url(./img/needed1.jpg);
+    
+    background-size:contain;
+    overflow: hidden;
+}
+.saluteTextContainer{
+    flex:3;
+}
+.saluteImageContainer{
+    flex:1;
+}
+.saluteText{
+    /* color: #666; */
+    color: rgb(186, 186, 168);
+    font-size: 60vw;
+}
+.saluteImg{
+    width: 56%;
+    
+   
+}
+.NameContainer{
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: #64485C; */
+    background: url(./img/needed2.jpg);
+    background-size: contain;
+}
+.name{
+    font-size: 20vw;
+   
+    /* color: #666; */
+    color: aliceblue;
+    cursor: default;
+    text-align: center;
+    line-height: 100vh;
+}
+.jobTitleContainer{
+    height: 100vh;
+    overflow: hidden;
+}
+.dark{
+    background: url("./img/hey.avif");
+    background-size: contain;
+    color: white;
+}
+.purple{
+    color: white;
+    background:  url("./img/graphic\ bg.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.jobTitle{
+    font-size: 9vw;
+    cursor: default;
+    /* text-align: center; */
+    line-height: 100vh;
+}
+.ProjectTitle{
+    /* Flex-basis: 30%; */
+    /* color: #555; */
+    color: aliceblue;
+    background: url(./img/needed5.jpg);
+    background-size: contain;
+    font-size: 5rem;
+    background-repeat: no-repeat;
+    line-height: 100vh;
+    display:flex;
+    font-weight: 650;
+   
+    letter-spacing:1.5px;
+    border-left: 20px solid #64485C;
+    border-right: 20px solid #64485C;
+    /* background: rgba(0, 0, 0, 0.05) */
+    
+     justify-content: center;
+} 
+
+
+
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    overflow: hidden; 
+    background: url(./img/needed4.jpg);
+    background-size: contain;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 2px;
+    margin-bottom: 5%;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .grid{
+    margin: 0 auto;
+    padding: 2%;
+  }
+
+  .img:hover{
+    transform:translateY(5px);
+    opacity: 0.8;
+}
+.mail{
+    height: 150px;
+    border-radius: 10%;
+}
+.phone{
+    height: 150px;
+    border-radius: 10%;
+}
+.address{
+    height: 150px;
+    border-radius: 10%;
+}
+
+.contact-info{
+    background: url(./img/needed3.jpg);
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.card{
+    color:aliceblue;
+}
+.infos{
+    font-size: 2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .vid{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border: 5px solid beige;
+
+} */
+
+/* .Contact{
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    padding: 5px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./img/bg1.png);
+} */
+
+
+/* 
+.ContactContainer{
+    height: 100vh;
+    background-color: #64485C;
+}
+.contact{
+    font-size: 5vw;
+    color: #333;
+    cursor: default;
+    padding: 10px;
+    text-align:center;
+    /* line-height: 100vh;*/
+/* }
+.contactDetail{
+    font-size: 3vw;
+    color: #333;
+    cursor: default;
+    padding: 10%;
+ 
+    text-align:center;
+    /* line-height: 100vh; */
+/* }
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.list1{
+    padding: 30px;
+    list-style: none;
+    text-decoration: none;
+} */ 
+
+.contact-info{
+    background-color: aliceblue;
+    color:black;
+}
+
+@media screen and (max-width : 1024px) {
+    .projects{
+flex-direction: column;
+    }
+    .projects:nth-child(2n){
+        flex-direction: column;
+    }
+    .ProjectTitle{ 
+        font-size: 1rem;
+
+    }
+    .img{
+        /* transform-style: preserve-3d; */
+        transform:none !important;
+    }
+    .jobTitle{
+        transform:rotateY('angle')
+    }
+    .name{
+        transform:none !important;
+    }
+}
