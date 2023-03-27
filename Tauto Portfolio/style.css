@@ -41,7 +41,7 @@
     overflow: hidden;
     /* background-color: #64485C; */
     background: url(./img/needed2.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 .name{
     font-size: 20vw;
@@ -58,7 +58,7 @@
 }
 .dark{
     background: url("./img/hey.avif");
-    background-size: contain;
+    background-size: cover;
     color: white;
 }
 .purple{
@@ -78,7 +78,7 @@
     /* color: #555; */
     color: aliceblue;
     background: url(./img/needed5.jpg);
-    background-size: contain;
+    background-size: cover;
     font-size: 5rem;
     background-repeat: no-repeat;
     line-height: 100vh;
@@ -109,7 +109,7 @@
     padding: 0 4px;
     overflow: hidden; 
     background: url(./img/needed4.jpg);
-    background-size: contain;
+    background-size: cover;
   }
   
   /* Create four equal columns that sits next to each other */
@@ -169,7 +169,8 @@
 
 .contact-info{
     background: url(./img/needed3.jpg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: row;
