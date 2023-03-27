@@ -5,6 +5,8 @@ const jobTitleContainers = document.querySelectorAll(".jobTitleContainer")
 const jobTitles = document.querySelectorAll(".jobTitle")
 const ProjectTitle = document.querySelector(".ProjectTitle")
 const imgs = document.querySelectorAll(".img")
+const contactInfo = document.querySelector(".contact-info")
+const cards = document.querySelectorAll(".card")
 
 
 
@@ -30,6 +32,8 @@ window.addEventListener("scroll", () => {
     imgs[14].style.transform = `translateY(calc(500vh - ${offsetY}px))`
     imgs[15].style.transform = `translateY(calc(500vh - ${offsetY}px))`
     imgs[16].style.transform = `translateY(calc(500vh - ${offsetY}px))`
+    cards.style.transform = `translateY(${offsetY * 0.5}px)`
+    contactInfo.style.backgroundPositionY = `${offsetY * 0.9}px`
 })  
 
 
